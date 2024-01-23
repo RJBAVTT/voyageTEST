@@ -317,3 +317,42 @@ button:focus {
 .support a:hover {
   transform: scale(1.1);
 }
+/* Añadir estilos para la barra de navegación */
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar__brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar__list {
+  list-style: none;
+  display: flex;
+}
+
+.navbar__list li {
+  margin-right: 20px;
+}
+
+.navbar__list a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar__list a:hover {
+  color: #ffcc00; /* Color de resaltado al pasar el mouse */
+}
